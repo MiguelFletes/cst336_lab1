@@ -1,0 +1,90 @@
+body {
+   background-color:black;
+   color: white;
+}
+
+header, main, nav, footer, table {
+    text-align: center;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#me, #welcomeText {
+    float: left;
+    width: 40%;
+}
+
+#me img {
+    width: 100%
+}
+
+#welcomeText {
+    text-align: left;
+    vertical-align: middle;
+}
+
+footer {
+    clear: left;
+    font-size: 1em;
+    color: #89b6ff;
+}
+
+footer img{
+    width: 5%
+}
+
+#home {
+    background-color: #89b6ff;
+    padding-top: 10px;
+}
+
+#about {
+    background-color: #89b6ff;
+    padding-top: 10px;
+}
+#contact {
+    background-color: #89b6ff;
+    padding-top: 10px;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+
+.hobby {
+    color: yellow;
+}
